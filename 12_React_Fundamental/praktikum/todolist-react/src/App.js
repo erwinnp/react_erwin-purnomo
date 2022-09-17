@@ -7,14 +7,9 @@ function App() {
   return (
     <>
       <Header />
-      <TodoLists
-        
-        lists={todoData[0]}
-      />
-      <TodoLists lists={todoData[1]} />
-      <TodoLists lists={todoData[2]} />
-      <TodoLists lists={todoData[3]} />
-      <TodoLists lists={todoData[4]} />
+      {todoData.map((data, i) => (
+        <TodoLists key={i} lists={data} />
+      ))}
     </>
   );
 }
