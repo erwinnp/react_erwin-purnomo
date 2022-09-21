@@ -1,0 +1,33 @@
+ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 560px;
+  border-bottom: 1px solid;
+}
+
+p {
+  padding: 1.25rem 0;
+  font-size: 20px;
+}
+
+p > span {
+  margin-left: 16px;
+}
+
+p > input {
+  transform: scale(1.2);
+}
+
+.wrapper-btn > button {
+  height: 50px;
+  width: 120px;
+  border: none;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  border-radius: 8px;
+  background-color: #ff595e;
+  color: #fff;
+  cursor: pointer;
+}
