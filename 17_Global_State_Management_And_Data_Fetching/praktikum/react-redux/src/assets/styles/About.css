@@ -1,0 +1,16 @@
+.about-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.about-wrapper h1 {
+  font-size: 64px;
+}
+
+.about-wrapper p {
+  width: 560px;
+  text-align: center;
+}
