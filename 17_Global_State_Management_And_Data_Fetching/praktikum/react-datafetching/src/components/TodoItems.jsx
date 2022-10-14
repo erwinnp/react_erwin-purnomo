@@ -1,21 +1,26 @@
 import '../assets/styles/TodoItems.css';
 
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { removeTodo, checkTodo } from '../store/features/todoSlice';
+// import { checkTodo } from '../store/features/todoSlice';
+import { fetchTodo, deleteTodo, updateTodo } from '../store/features/todoSlice';
 
 const TodoItems = () => {
-  const todos = useSelector((state) => state.todos);
+  const todos = useSelector((state) => state.todos.data);
+  // const fetchStatus = useSelector((state) => state.todos.fetchStatus);
   const dispatch = useDispatch();
 
-  const removedTodo = (remove) => {
-    dispatch(removeTodo(remove));
+  useEffect(() => {
+    dispatch(fetchTodo());
+  }, [dispatch]);
+
+  const removedTodo = (id) => {
+    dispatch(deleteTodo(id));
   };
 
-  const checkedTodo = (check) => {
-    dispatch(checkTodo(check));
+  const checkedTodo = (id) => {
+    dispatch(updateTodo(id));
   };
-
-  console.log(todos);
 
   const todoItems = todos.map((list) => {
     return (
