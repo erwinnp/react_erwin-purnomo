@@ -1,0 +1,9 @@
+query getOnlyTrueStudents {
+  kampus_merdeka_keterangan(where: {status: {_eq: true}}) {
+    id
+    id_anggota
+    pelajaran
+    nilai
+    status
+  }
+}
