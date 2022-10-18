@@ -1,0 +1,39 @@
+{
+  "data": {
+    "kampus_merdeka_anggota": [
+      {
+        "id": 1,
+        "keterangans": [
+          {
+            "pelajaran": "Sistem Informasi"
+          },
+          {
+            "pelajaran": "React"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "keterangans": [
+          {
+            "pelajaran": "SIstem Informasi"
+          },
+          {
+            "pelajaran": "React"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "keterangans": [
+          {
+            "pelajaran": "Sistem Informasi"
+          },
+          {
+            "pelajaran": "React"
+          }
+        ]
+      }
+    ]
+  }
+}
