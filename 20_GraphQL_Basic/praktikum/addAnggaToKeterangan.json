@@ -1,25 +1,14 @@
-mutation addAnggaToKeterangan($id_anggota: Int, $nilai: Int, $pelajaran: String, $status: Boolean){
-  insert_kampus_merdeka_keterangan(objects: {id_anggota: $id_anggota, nilai: $nilai, pelajaran: $pelajaran, status: $status}) {
-    returning {
-      id
-      id_anggota
-      pelajaran
-      nilai
-      status
-    }
+[
+  {
+    "id_anggota": 3,
+    "pelajaran": "Sistem Informasi",
+    "nilai": 90,
+    "status": true
+  },
+  {
+    "id_anggota": 3,
+    "pelajaran": "React",
+    "nilai": 55,
+    "status": false
   }
-}
-
-{
-  "id_anggota": 3,
-  "pelajaran": "Sistem Informasi",
-  "nilai": 90,
-  "status": true
-}
-
-{
-  "id_anggota": 3,
-  "pelajaran": "React",
-  "nilai": 55,
-  "status": false
-}
+]
