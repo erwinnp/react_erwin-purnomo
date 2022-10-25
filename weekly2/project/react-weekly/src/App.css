@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  color: #152c5b;
+  font-size: 42px;
+  line-height: 56px;
+}
+
+.subtitle {
+  color: #b0b0b0;
+  width: 359px;
+  height: 81px;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.subtitle-contact {
+  color: #b0b0b0;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.subtitle-footer {
+  width: 275px;
+  color: #b0b0b0;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.spacing {
+  margin: 0 150px;
+}
+
+.divider {
+  border-bottom: 1px solid #ee6c4d;
+}
+
+button {
+  margin-top: 30px;
+  width: 210px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ee6c4d;
+  color: #fff;
+}
+
+a {
+  color: #152c5b;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #ee6c4d;
+}
+
+span {
+  color: #ee6c4d;
+}
+
+.wrapper {
+  width: 1140px;
+  margin: 30px auto;
+}
+
+.form-wrapper {
+  width: 1140px;
+  height: 300px;
+  margin: 30px auto;
+}
+
+.form-left {
+  width: 360px;
+}
+
+.form-right {
+  width: 652px;
+}
+
+.form-right textarea {
+  height: 132px;
+}
+
+.about-wrapper {
+  width: 640px;
+  text-align: center;
+}
